@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: red;
   font-family: sans-serif;
   line-height: 1.2;
 }
@@ -27,8 +27,8 @@ section.cover {
   padding:2em;
   min-width: 15em;
   margin: .5em;
-  background-color: green;
-  color: pink
+  background-color: gray;
+  color: pink;
   border-radius: 1em;
   flex: 1 0 20%;
   display: flex;
@@ -36,14 +36,14 @@ section.cover {
 }
 section.cover img{
   width: 100%;
-  
+
   height: auto;
 }
 section.cover:hover{
-  background-color: red;
-}
+  background-color: white;
+}  
 section.cover p:nth-last-child(2) {
-  padding-bottom: 2em:
+  padding-bottom: 2em;
 }
 section.cover button:last-child {
  width: 10em;

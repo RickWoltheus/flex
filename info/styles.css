@@ -1,0 +1,76 @@
+body {
+font-family:  sans-serif;
+margin: 0;
+}
+header {
+  background-color: orange;
+  color: #fff
+}
+header h1 {
+  margin: 0;
+  padding: 1rem;
+}
+ img{
+  display: inline-block;
+  float: left;
+}
+.artist-info{
+    float: left;
+}
+aside {
+  padding: 1em;
+  background-color: lightgray;
+}
+article {
+  padding:1em;
+}
+footer {
+  padding: 1em;
+  background-color: #444;
+  color: white;
+}
+
+/* flex*/ 
+main {
+  display: flex;
+  flex-direction: column;
+}
+aside {
+  order: 1;
+}
+footer:after {
+  content: 'mobile version';
+}
+@media screen and (min-width: 26em) {
+  main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  article{
+    width: 100%;
+  }
+  aside{
+    flex:1;
+  }
+  footer:after {
+    content:'dit is voor apperaten met 26 em tot 36 em'
+  }
+}
+@media screen and (min-width: 36em) {
+main {
+  flex-wrap: nowrap;
+}
+article {
+  display: block;
+  width: auto;
+  flex:6;
+}
+aside{
+  order:0;
+
+}
+  footer:after {
+  content:  'dit is voor grote schermen';
+}
+
+}
