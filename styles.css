@@ -1,0 +1,49 @@
+
+html, body, .body2 {
+  height: 100%;
+  margin:0; padding: 0;
+}
+
+body {
+  background-color: green;
+  
+}
+  
+.body2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.platform {
+  background-color: black;
+  padding: 1em;
+  margin: 1em;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  color: white;
+  height: 10em;
+  flex: 0 0 10em;
+}
+.platform:hover {
+  background-color: rgb(30, 47, 38);
+}
+
+
+
+/*validatie*/
+#exitvali {
+    display: inline-block;
+    float: right
+}
+
+.validate {
+    bottom: 0px;
+    margin-left: -8px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: inline-block;
+}
+
+
